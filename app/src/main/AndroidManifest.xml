@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Messenger"
         android:usesCleartextTraffic="true">
-        <activity android:name=".SetUserProfileActivity"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".SetUserProfileActivity" />
         <activity
             android:name=".OTPActivity"
             android:windowSoftInputMode="stateVisible" />
@@ -24,6 +25,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
